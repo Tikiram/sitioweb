@@ -5,7 +5,7 @@ stages:
       dockerfilePath: ./Dockerfile
       buildContext: .
       tag: czdev/miws
-      pushRemote: true
+      pushRemote: false
       registry: index.docker.io
 - name: Create Deployment
   steps:
